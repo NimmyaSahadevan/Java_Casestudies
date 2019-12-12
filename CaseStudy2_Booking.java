@@ -64,8 +64,8 @@ public class CaseStudy2_Booking
 			wifi=in.readLine();
 			if(wifi.equals("W"))
 			{
-				cost=cost+200;
-				wifi="wifi";
+				  cost=cost+200;
+				  wifi="wifi";
 			}
 			System.out.println("Laundry service needed or not(L/nL)");
 			laundry=in.readLine();
