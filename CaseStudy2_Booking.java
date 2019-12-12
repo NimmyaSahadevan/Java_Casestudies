@@ -28,8 +28,8 @@ public class CaseStudy2_Booking
 		this.wifi= wifi;
 		this.laundry= laundry;
 		System.out.println("Booking:");
-        do
-        {
+       		do
+        	{
 			cost=0;
 			System.out.println("Please choose the services required.");
 			System.out.println("AC/non-AC(AC/nAC)");
