@@ -1,6 +1,7 @@
 package programs;
 
-public class Register {
+public class Register 
+{
 	int id;
 	String name,address,mob,pt,pno;
 	int registration(int id,String name,String address,String mob,String pt,String pno)
@@ -20,10 +21,4 @@ public class Register {
 				+"\nProof type: "+this.pt+"\nProof id: "+this.pno
 				+"\nYour Registration ID: "+this.id);
 	}
-
-	/*void viewcus()
-	{
-	System.out.print(this.name+"\t"+this.mob);
-	}*/
-
 }
