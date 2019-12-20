@@ -1,6 +1,7 @@
 package programs;
 import java.util.Scanner;
-public class View {
+public class View
+{
 	int id;
 	String cn,ca,cco,cp,cpr;
 	public void registration(int id,String cn,String ca,String cco,String cp,String pcr)
