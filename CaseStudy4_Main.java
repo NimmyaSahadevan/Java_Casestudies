@@ -55,7 +55,7 @@ public class casestudy41
                     }
                     if(k==0)
                     {
-                    System.out.println("Invalid registration id");
+                        System.out.println("Invalid registration id");
                     }
                     break;
              case 3:
