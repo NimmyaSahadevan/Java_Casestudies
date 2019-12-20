@@ -72,10 +72,10 @@ public class bookrooms
 				System.out.println("Room NO\t\tCustomer id");
 				for(int j=0;j<b;j++)
 				{
-				if((bo[j].date>=d1)&&(bo[j].date<=d2))
-				{
-					bo[j].view(d1,d2);
-				}
+					if((bo[j].date>=d1)&&(bo[j].date<=d2))
+					{
+						bo[j].view(d1,d2);
+					}
 				}
 				break;
 			case 3:
