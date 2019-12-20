@@ -7,7 +7,6 @@ public class booking1
 	int book(String ac,String cot,String cable,String wifi,String laundry,int date,int bid,int cuid)
 	{
 		float tot=0.0f;
-		
 		if(cot.contentEquals("Double"))
 		{
 			tot=tot+350;
@@ -61,12 +60,9 @@ public class booking1
 		System.out.println("ON DATE :"+this.date);
 
 		return this.bid;
-		
-}
+	}
 	void view(int d1,int d2)
 	{
-	System.out.println(this.bid+"\t\t"+this.cuid);
+		System.out.println(this.bid+"\t\t"+this.cuid);
 	}
-	
-		
-	}
+}
